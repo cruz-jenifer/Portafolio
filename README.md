@@ -37,3 +37,4 @@ Este portafolio es una demostración de dominio del **DOM** y optimización del 
 ├── styles.css    # CSS Variables, Flexbox/Grid y Animaciones Keyframes
 └── script.js     # Lógica de estado, eventos y renderizado
 ```
+###  [HAZ CLICK ACA PARA VER LA PAGINA](https://portafolio-cruz-jenifer.vercel.app/)
