@@ -99,13 +99,14 @@ if (!esTactil) {
   });
 
   // LUZ FOOTER
-  if (dom.footer) {
+ if (dom.footer) {
     dom.footer.onmousemove = e => {
       const r = dom.footer.getBoundingClientRect();
-      dom.luzFooter.style.transform = `translate3d(${(e.clientX - r.left - r.width/2)*.5}px, ${(e.clientY - r.top - r.height/2)*.5}px, 0)`;
+      const x = (e.clientX - r.left - r.width / 2) * 0.5;
+      const y = (e.clientY - r.top - r.height / 2) * 0.5;
+      dom.luzFooter.style.transform = `translate3d(${x}px, ${y}px, 0) translate3d(-50%, -50%, 0)`;
     };
   }
-
   // HOVERS GENERALES
   document.querySelectorAll(".objetivo-hover").forEach(el => {
     el.onmouseenter = () => dom.cuerpo.classList.add("hovering");
