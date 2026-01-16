@@ -359,11 +359,11 @@ body.menu-abierto .barra:nth-child(3) {
   transition: 0.1s linear;
 }
 .fondo-bn {
-  background-image: url("img1.jpg");
+  background-image: url("img/img1.jpg");
   filter: grayscale(1) brightness(0.5) contrast(1.2);
 }
 .fondo-color {
-  background-image: url("img2.jpg");
+  background-image: url("img/img2.jpg");
   opacity: 0;
   transition: opacity 0.4s;
 }
